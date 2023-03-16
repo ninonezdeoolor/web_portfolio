@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Mobile Responsive Meta Tag -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Bootstrap CSS Link -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+		<!-- External CSS -->
+		<link rel="stylesheet" type="text/css" href="index.css">
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<!-- Open Sans -->
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Zilla+Slab&display=swap" rel="stylesheet">
+		<!-- Roboto -->
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+		<!-- Montserrat -->
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+
+		<title>My Portfolio</title>
+	</head>
+	<body>
+
+		<!-- Navigation Start -->
+		<div class="fixed-top bg-dark d-flex flex-row text-light p-2">
+		    <div class="mr-auto logo"><a href="#" class="text-decoration-none text-reset">DEO</a></div>
+		    <div class="pl-3 pr-3"><a href="#about-me" class="text-decoration-none text-reset">Me</a></div>
+		    <div class="pl-3 pr-3"><a href="#projects" class="text-decoration-none text-reset">Projects</a></div>
+		    <div class="pl-3 pr-3"><a href="#tools" class="text-decoration-none text-reset">Tools</a></div>
+		    <div class="pl-3 pr-3"><a href="#contacts" class="text-decoration-none text-reset">Contacts</a></div>
+		</div>
+		<!-- Navigation End -->
+
+		<!-- Main Contaier Fluid Start -->
+		<div class="container-fluid">
+
+			<!-- Button to Top Start -->
+			<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+			<!-- Button to Top End -->
+
+			<!-- About Me Section Start -->
+			<section class="container-fluid bg-light text-dark p-5">
+				<h1 class="text-center p-3" id="about-me">About Me</h1>
+				<div class="row d-flex flex-row text-center">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					    <img src="images/avatar.jpg" id="avatar" class="rounded-lg border border-dark img-fluid"/>
+					</div>
+				    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+				        <h4 class="text-center font-weight-bolder">Niño Olor</h4>
+				        <p class="text-center pt-3 font-weight-light">Full Stack Web Developer</p>
+				        <p class="text-justify col-12 p-1 about-me">I was a 10-year tech support specialist, I realized something and wanted to make a career shift into being a programmer. Driven by determination and ambition, I decided to enroll at Zuitt Coding Bootcamp for web development. I dedicated my time to learning HTML, CSS, JavaScript, and other programming languages.</p>
+
+				        <p class="text-justify col-12 p-1 about-me">Hopefully soon, I will be able to land a job as a junior developer and start on a new journey. I'm ecstatic to use my skills to create innovative and groundbreaking websites. My experience in tech support gave me an advantage in troubleshooting problems, which I applied to my Web development field.</p>
+				    </div>
+				</div>
+			</section>
+			<!-- About Me Section End -->
+
+			<!-- Projects Section Start-->
+			<section class="container-fluid bg-dark text-light p-3">
+				<h1 class="text-center p-3" id="projects">Projects</h1>
+					<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+					  <ol class="carousel-indicators">
+					    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+					    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+					    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+					  </ol>
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img src="images/socialmedia.png" class="d-block w-100" alt="...">
+					      <div class="carousel-caption d-none d-md-block">
+					        <h3 class="text-success font-weight-bolder">Social Media Platforms</h3>
+					        <p class="text-success font-weight-bold">Created Several Social Media Platforms.</p>
+					      </div>
+					    </div>
+					    <div class="carousel-item">
+					      <img src="images/ecommerce.png" class="d-block w-100" alt="...">
+					      <div class="carousel-caption d-none d-md-block">
+					        <h3 class="text-success font-weight-bolder">E-Commerce Platforms</h3>
+					        <p class="text-success font-weight-bold">Created Several E-Commerce Platforms.</p>
+					      </div>
+					    </div>
+					    <div class="carousel-item">
+					      <img src="images/video.png" class="d-block w-100" alt="...">
+					      <div class="carousel-caption d-none d-md-block">
+					        <h3 class="text-success font-weight-bold">Video Platforms</h3>
+					        <p class="text-success font-weight-bold">Created Several Online Video Platforms.</p>
+					      </div>
+					    </div>
+					  </div>
+					  <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </button>
+					  <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </button>
+					</div>
+			</section>
+			<!-- Projects Section End -->
+
+			<!-- Tools Section Start -->
+			<section class="container-fluid bg-light text-dark p-3">
+				<h1 class="text-center p-3" id="tools">Tools</h1>
+				<div class="row d-flex flex-row text-center">
+				  <div class="col-12 col-md-6 col-lg-3 col-xl-3 mb-4">
+				    <div class="card">
+				      <img src="images/html.png" class="card-img-top" alt="...">
+				      <div class="card-body">
+				        <h5 class="card-title">HTML</h5>
+				        <p class="card-text text-justify">HTML stands for Hypertext Markup Language and is the foundation of web pages on the Internet. HTML is made up of tags, elements and attributes which define how a webpage is structured, styled and linked. HTML is used by web browsers and web servers to create and display webpages.</p>
+				      </div>
+				    </div>
+				  </div>
+				  <div class="col-12 col-md-6 col-lg-3 col-xl-3 mb-4">
+				    <div class="card">
+				      <img src="images/css.png" class="card-img-top img-fluid" alt="...">
+				      <div class="card-body">
+				        <h5 class="card-title">CSS</h5>
+				        <p class="text-justify card-text">CSS stands for Cascading Style Sheets. CSS is a scripting language used to style HTML elements on a web page. It can be used to control font, color, images, positioning, sizing, and spacing of web page content. CSS is used to create a visually appealing, uniform web page layout that can be quickly loaded and accessed by users.</p>
+				      </div>
+				    </div>
+				  </div>
+				  <div class="col-12 col-md-6 col-lg-3 col-xl-3 mb-4">
+				    <div class="card">
+				      <img src="images/bootstrap.png" class="card-img-top img-fluid" alt="...">
+				      <div class="card-body">
+				        <h5 class="card-title">BOOTSTRAP</h5>
+				        <p class="text-justify card-text">Bootstrap is a free and open-source CSS framework for developing responsive, mobile-first, and cross-browser websites. It provides basic CSS styling and components, and a powerful grid system for quickly creating layouts. Bootstrap also includes optional JavaScript plugins for transitions, modal boxes, and more.</p>
+				      </div>
+				    </div>
+				  </div>
+				  <div class="col-12 col-md-6 col-lg-3 col-xl-3 mb-4">
+				    <div class="card">
+				      <img src="images/nodejs.png" class="card-img-top img-fluid" alt="...">
+				      <div class="card-body">
+				        <h5 class="card-title">NODE.JS</h5>
+				        <p class="text-justify card-text">Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It is used to create scalable network applications and manipulate, create, and convert data with JavaScript. It provides an event-driven, non-blocking I/O model that makes building fast and efficient web applications easier.</p>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</section>
+			<!-- Tools Section End -->
+
+			<!-- Contact Session Start -->
+			<section class="container-fluid bg-dark text-light pb-5">
+				<h1 class="text-center p-3" id="contacts">Contacts</h1>
+				<div class="row d-flex flex-row text-center">
+					<!-- Form start -->
+					<div class="col-12 col-md-12 col-lg-8 col-xl-8 p-4">
+						<h3 class="p-1 font-weight-bolder">Say Hello!</h3>
+						<form>
+						  <div class="form-group">
+						    <label for="full_name">Full Name</label>
+						    <input type="text" class="form-control form-control-sm" id="full_name" placeholder="Full Name" required>
+						  </div>
+						  <div class="form-group">
+						    <label for="email_address">Email address</label>
+						    <input type="email" class="form-control form-control-sm" id="email_address" placeholder="sample@email.com" required>
+						  </div>
+						  <div class="form-group">
+						    <label for="contact_number">Contact Number</label>
+						    <input type="tel" class="form-control form-control-sm" id="contact_number" placeholder="+639 000 000 000" required>
+						  </div>
+						  <div class="form-group">
+						      <label class="text-light" for="concern">Concern</label>
+						      <select class="form-control form-control-sm" id="concern" required>
+						      	  <option value="">Choose...</option>
+						          <option value="quotation">Quotation</option>
+						          <option value="appointment">Appointment</option>
+						          <option value="follow_up">Follow-Up</option>
+						          <option value="others">Others</option>
+						      </select>
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleFormControlTextarea1">Message</label>
+						    <textarea class="form-control form-control-sm" id="exampleFormControlTextarea1" rows="4" required></textarea>
+						  </div>
+						  <button type="submit" class="btn btn-secondary border border-light p-2" data-toggle="modal" data-target="#staticBackdrop">Send</button>
+						</form>
+					</div>
+					<!-- Form End -->
+
+					<!-- Socials Start -->
+					<div class="col-12 col-md-12 col-lg-4 col-xl-4 p-4">
+						<h4 class="p-1 font-weight-bolder">Socials</h4>
+						<div class="row d-flex flex-row text-center">
+							<div class="col-12 col-md-6 col-lg-6 col-xl-6">
+								<h6 class="p-1">Facebook</h6>
+								<img src="images/fb.png" class="rounded img-fluid"/>
+							</div>
+							<div class="col-12 col-md-6 col-lg-6 col-xl-6">
+								<h6 class="p-1">Instagram</h6>
+								<img src="images/ig.png" class="rounded img-fluid"/>
+							</div>
+							<div class="col-12 col-md-6 col-lg-6 col-xl-6">
+								<h6 class="p-1">Twitter</h6>
+								<img src="images/tt.png" class="rounded img-fluid"/>
+							</div>
+							<div class="col-12 col-md-6 col-lg-6 col-xl-6">
+								<h6 class="p-1">Linkedin</h6>
+								<img src="images/li.png" class="rounded img-fluid"/>
+							</div>
+						</div>
+					</div>
+					<!-- Socials End -->
+				</div>
+			</section>
+			<!-- Contact Section End -->
+
+		</div>
+		<!-- Main Container Fluid End -->
+
+		<!-- Modal Section Start -->
+		<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title font-weight-bolder" id="staticBackdropLabel">MESSAGE SUCCESSFULLY SENT!</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        Thank you for contacting me.
+		      </div>
+		      <div class="modal-footer textarea">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- Modal Section End -->
+
+		<!-- Footer Start -->
+		<div class="text-dark bg-light fixed-bottom text-center font-weight-light p-1">All rights reserved.</div>
+		<!-- Footer End -->
+
+		<!-- Button to Top Start -->
+		<script>
+		// Get the button
+		let mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    mybutton.style.display = "block";
+		  } else {
+		    mybutton.style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+		</script>
+		<!-- Button to Top End -->
+
+		<!-- Bootstrap JS Scripts -->
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+	</body>
+</html>

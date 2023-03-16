@@ -1,0 +1,58 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+	letter-spacing: 10px;
+	font-weight: bolder;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+}
+
+#tools-used {
+	width: 500px;
+	height: 300px;
+}
+
+#avatar {
+	width: 400px;
+	height: 400px;
+}
+
+.card-text {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.about-me {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: lightgray;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
